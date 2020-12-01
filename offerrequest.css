@@ -1,0 +1,150 @@
+@import url('https://d11wkw82a69pyn.cloudfront.net/siteassets/images/blockchain/2016/banking/banking_1440x600_canvas_low.jpg');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('https://d11wkw82a69pyn.cloudfront.net/siteassets/images/blockchain/2016/banking/banking_1440x600_canvas_low.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  background-color:white;
+  opacity: 0.8;
+}
+li {
+  float: left;
+}
+
+  li a {
+      display: block;
+      color: #50A377;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+  }
+
+      li a:hover {
+          background-color: grey;
+      }
+
+.payment{
+  background: #f8f8f8;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.payment h2{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #0d3c61;
+}
+
+.form .label{
+  display: block;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.input{
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  font-size: 10px;
+  color: #555555;
+}
+
+.card-grp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item{
+  width: 55%;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+
+.btn{
+  margin-top: 40px;
+  background-image: url('https://d11wkw82a69pyn.cloudfront.net/siteassets/images/blockchain/2016/banking/banking_1440x600_canvas_low.jpg');
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.payment-logo{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  text-align: center;
+  line-height: 85px;
+}
+
+.payment-logo:before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+  background-image: url('https://d11wkw82a69pyn.cloudfront.net/siteassets/images/blockchain/2016/banking/banking_1440x600_canvas_low.jpg');
+  border-radius: 50%;
+}
+
+.payment-logo p{
+  position: relative;
+  color: #f8f8f8;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 58px;
+}
+
+
+@media screen and (max-width: 420px){
+  .card-grp{
+    flex-direction: column;
+  }
+  .card-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
